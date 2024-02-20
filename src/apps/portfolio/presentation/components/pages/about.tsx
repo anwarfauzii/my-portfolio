@@ -3,7 +3,7 @@ export const About = () => {
     <div className="w-full h-full flex flex-col justify-center px-20">
       <span className="text-2xl font-bold text-white">Hi, I'm Anwar Fauzi.</span>
       <div className="flex items-center">
-        <img src="images/my-photo.png" className="w-96 h-96" alt="" />
+        <img src="images/my-photo-2.png" className="w-96 h-96" alt="" />
         <p className="pt-6 text-base font-normal pr-48 pl-24 text-gray-300">
           I'm a graduate of Vocational High School, majoring in Informatics Engineering, with
           expertise in Software Engineering. Currently, I'm working as a Frontend Developer.
@@ -16,7 +16,7 @@ export const About = () => {
           technologies to explore, and I am determined to absorb as much as possible. I have a
           strong passion for learning and value feedback to continuously improve and grow.
           <br /> <br />
-          I reside in Bogor Regency, West Java Province. And I'm always enthusiastic about
+          I reside in Ciamis Regency, West Java Province. And I'm always enthusiastic about
           connecting with new people. If you'd like to get in touch, please feel free to visit my
           social media or reach out to me via email.
           <br /> <br />
