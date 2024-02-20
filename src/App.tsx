@@ -5,7 +5,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from 'react-router-dom';
-import { About, Home } from './apps/portfolio/components/pages';
+import { About, Home, Experience } from './apps/portfolio/components/pages';
 import RootLayout from './core/layout/RootLayout';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route path="home" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="project" element={<About />} />
-        <Route path="contact" element={<About />} />
+        <Route path="experience" element={<Experience />} />
       </Route>
     )
   );

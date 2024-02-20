@@ -14,19 +14,21 @@ export const Home = () => {
   return (
     <div className="w-full h-full flex items-center justify-between px-44">
       <div className="w-1/2 pl-32">
-        <div className="inline-block bg-gradient-to-r from-cyan-500 to-amber-700/30 px-10 py-2 rounded-r-full rounded-tl-full mb-4">
-          <span className="text-white text-2xl font-extrabold">Hello!</span>
-        </div>
-        <div className="text-3xl font-bold mb-2">
-          <span className="text-black">I'm&nbsp;</span>
-          <Link to={'/about'} className="text-gray-600/80 underline hover:text-gray-700/80">
-            Anwar
+        <span className="text-yellow-500 text-2xl font-semibold">Hello, Welcome</span>
+
+        <div className="text-3xl font-bold mb-2 pt-4">
+          <span className="text-white">I'm&nbsp;</span>
+          <Link
+            to={'/about'}
+            className="text-gray-100 underline hover:text-white hover:font-extrabold"
+          >
+            Anwar Fauzi
           </Link>{' '}
           👋
         </div>
-        <p className="text-black mb-6">
-          <span className="font-bold text-xl">Front-End Developer</span> <br />
-          <span className="font-light text-base">Based in Jakarta, Indonesia. </span>
+        <p className="text-black mb-6 pt-2">
+          <span className="font-bold text-lg text-gray-200">Front-End Developer</span> <br />
+          <span className="font-light text-base text-gray-400">Based in Jakarta, Indonesia. </span>
         </p>
         <div className="flex gap-x-6">
           <div

@@ -1,11 +1,13 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from 'react-router-dom';
 
 export const Navbar = () => {
-    const { pathname } = useLocation(); 
-    
-    return (
+  const { pathname } = useLocation();
+
+  return (
     <div className="w-full px-20 py-6 flex justify-between">
-      <span className="text-2xl font-bold ">Anwar Fauzi</span>
+      <span className="text-2xl font-bold text-white">
+        Anwar <span className="text-yellow-500">Fauzi</span>
+      </span>
       <div className="flex gap-x-4">
         <Link
           id="home"
@@ -16,7 +18,7 @@ export const Navbar = () => {
               : 'bg-transparent font-semibold'
           } text-black rounded-full py-2 px-6`}
         >
-          <span className="text-xs xl:text-sm">Home</span>
+          <span className="text-xs xl:text-sm text-white hover:font-bold">Home</span>
         </Link>
         <Link
           id="about"
@@ -27,7 +29,18 @@ export const Navbar = () => {
               : 'bg-transparent font-semibold'
           } text-black rounded-full py-2 px-6`}
         >
-          <span className="text-xs xl:text-sm">About</span>
+          <span className="text-xs xl:text-sm text-white hover:font-bold">About</span>
+        </Link>
+        <Link
+          id="experience"
+          to={'/experience'}
+          className={`${
+            pathname.includes('/experience')
+              ? 'bg-gray-400/30 shadow-xl font-semibold border border-gray-200'
+              : 'bg-transparent font-semibold'
+          } text-black rounded-full py-2 px-6`}
+        >
+          <span className="text-xs xl:text-sm text-white hover:font-bold">Experience</span>
         </Link>
         <Link
           id="project"
@@ -38,18 +51,7 @@ export const Navbar = () => {
               : 'bg-transparent font-semibold'
           } text-black rounded-full py-2 px-6`}
         >
-          <span className="text-xs xl:text-sm">Project</span>
-        </Link>
-        <Link
-          id="contact"
-          to={'/contact'}
-          className={`${
-            pathname.includes('/contact')
-              ? 'bg-gray-400/30 shadow-xl font-semibold border border-gray-200'
-              : 'bg-transparent font-semibold'
-          } text-black rounded-full py-2 px-6`}
-        >
-          <span className="text-xs xl:text-sm">Contact</span>
+          <span className="text-xs xl:text-sm text-white hover:font-bold">Project</span>
         </Link>
       </div>
     </div>
