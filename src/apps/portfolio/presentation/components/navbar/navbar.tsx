@@ -7,7 +7,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="w-full px-4 lg:px-20 py-6 flex justify-between">
+      <div className="w-full px-4 md:px-8 lg:px-20 py-6 flex justify-between">
         <Link to={'/'}>
         <span className="text-2xl font-bold text-white">
           Anwar <span className="text-yellow-500">Fauzi</span>
