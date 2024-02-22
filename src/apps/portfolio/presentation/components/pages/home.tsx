@@ -32,16 +32,16 @@ export const Home = () => {
         </p>
         <div className="flex gap-x-6">
           <div
-            className="inline-block justify-center items-center bg-gradient-to-r from-orange-500 to-orange-400 px-6 py-2 rounded-lg border-2 border-white shadow-xl cursor-pointer hover:shadow-gray-700/35 hover:scale-105 transition-all"
+            className="inline-block justify-center items-center bg-gradient-to-r from-orange-500 to-orange-400 px-4 lg:px-6 py-2 rounded-lg border-2 border-white shadow-xl cursor-pointer hover:shadow-gray-700/35 hover:scale-105 transition-all"
             onClick={clickResume}
           >
-            <span className="text-xl font-bold text-white">Resume</span>
+            <span className="text-base lg:text-xl font-bold text-white">Resume</span>
           </div>
           <div
-            className="inline-block justify-center items-center bg-black/70 px-6 py-2 rounded-lg border-2 border-white shadow-xl cursor-pointer hover:shadow-gray-700/35 hover:scale-105 transition-all"
+            className="inline-block justify-center items-center bg-black/70 px-4 lg:px-6 py-2 rounded-lg border-2 border-white shadow-xl cursor-pointer hover:shadow-gray-700/35 hover:scale-105 transition-all"
             onClick={clickTouch}
           >
-            <span className="text-xl font-bold text-white">Get in touch</span>
+            <span className="text-base lg:text-xl font-bold text-white">Get in touch</span>
           </div>
         </div>
       </div>

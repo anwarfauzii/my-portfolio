@@ -51,7 +51,7 @@ export const Navbar = () => {
         </div>
       </div>
       {openNav ? (
-        <div className="grid grid-cols-2 lg:hidden px-4">
+        <div className="grid grid-cols-2 lg:hidden px-4 pb-4">
           <ContentNavbar setOpenNav={setOpenNav} />
         </div>
       ) : null}
