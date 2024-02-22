@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { IExperienceModel } from '../../../domail/model/portfolio.model';
 
 const ExperienceCard = ({ data }: { data: IExperienceModel[] }) => {
@@ -11,7 +11,7 @@ const ExperienceCard = ({ data }: { data: IExperienceModel[] }) => {
         >
           <div className="flex flex-col gap-y-2">
             <h2 className="text-base font-semibold text-white">{item.title}</h2>
-            <span className="text-xs font-medium text-gray-400">{item.time}</span>
+            <span className="text-xs font-medium text-gray-400">{item.label}</span>
             <p className="line-clamp-2 max-w-4xl pt-4 text-sm text-gray-200">{item.description}</p>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
@@ -19,12 +19,12 @@ const ExperienceCard = ({ data }: { data: IExperienceModel[] }) => {
               <img key={idx} src={o} className="w-full h-60 object-cover rounded-lg" alt={item.alt[idx]} />
             ))}
           </div>
-          <Link to={`/experience/${item.url}`}>
+          {/* <Link to={`/experience/${item.url}`}>
             <div className="inline-block justify-center items-center bg-gradient-to-r from-orange-500 to-orange-400 px-3 py-1 rounded-lg border-2 border-white shadow-xl cursor-pointer hover:shadow-gray-700/35 hover:scale-105 transition-all">
               <span className="text-base font-bold text-white">Read more</span>
               <span className="sr-only">, {item.title}</span>
             </div>
-          </Link>
+          </Link> */}
         </li>
       ))}
     </div>

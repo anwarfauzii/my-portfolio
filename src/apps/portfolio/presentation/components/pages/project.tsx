@@ -1,5 +1,10 @@
+import ProjectsCard from '../cards/projects.card';
+import { projectsMock } from '../../../data/mock/portfolio';
+
 export const Project =() =>{
-    return <div className="pt-32 w-full h-full flex justify-center">
-        <span className="text-xl text-white">Halaman Project</span>
-    </div>
+  return (
+        <div className="w-full h-full pt-32 px-20">
+          <ProjectsCard data={projectsMock} />
+        </div>
+      );
 }
