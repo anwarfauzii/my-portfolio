@@ -1,10 +1,10 @@
 export const About = () => {
   return (
-    <div className="w-full h-full flex flex-col justify-center px-20">
+    <div className="pt-32 px-4 md:px-12 lg:px-20 pb-10">
       <span className="text-2xl font-bold text-white">Hi, I'm Anwar Fauzi.</span>
-      <div className="flex items-center">
-        <img src="images/my-photo-2.png" className="w-96 h-96" alt="" />
-        <p className="pt-6 text-base font-normal pr-48 pl-24 text-gray-300">
+      <div className="w-full h-full flex flex-col lg:flex-row items-center pt-6 lg:pt-0">
+        <img src="images/my-photo-2.png" className="w-96 px-14 md:px-4 lg:px-0" alt="" />
+        <p className="pt-6 text-base font-normal lg:pr-48 lg:pl-24 text-gray-300">
           I'm a graduate of Vocational High School, majoring in Informatics Engineering, with
           expertise in Software Engineering. Currently, I'm working as a Frontend Developer.
           <br /> <br />

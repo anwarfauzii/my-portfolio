@@ -8,11 +8,10 @@ export const experienceMock: IExperienceModel[] = [
       'In February, I decided to switch jobs to Thinkspedia. As a full-time employee, I was given responsibility for several projects, and I had several colleagues as my juniors. This became a new challenge for me.',
     url: 'working-at-pt-orde-digital-intelektual',
     image: [
-      'images/experience/thinks-1.JPG',
       'images/experience/thinks-2.jpg',
       'images/experience/thinks-3.JPG',
     ],
-    alt: ['photo-thinks-1', 'photo-thinks-2', 'photo-thinks-3'],
+    alt: ['photo-thinks-2', 'photo-thinks-3'],
   },
 
   {
