@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ContentNavbar from './content.navbar';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -7,9 +8,11 @@ export const Navbar = () => {
   return (
     <>
       <div className="w-full px-4 lg:px-20 py-6 flex justify-between">
+        <Link to={'/'}>
         <span className="text-2xl font-bold text-white">
           Anwar <span className="text-yellow-500">Fauzi</span>
         </span>
+        </Link>
         <div className="lg:hidden">
           <div
             onClick={() => setOpenNav(!openNav)}
