@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <div className="w-full px-20 py-6 flex justify-between">
       <span className="text-2xl font-bold text-white">
-        Anwar <span className="text-yellow-500">Fauzi</span>
+        Anwar <span className="text-yellow-500">Fauzi.</span>
       </span>
       <div className="flex gap-x-4">
         <Link
