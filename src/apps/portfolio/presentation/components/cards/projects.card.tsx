@@ -5,11 +5,11 @@ const ProjectsCard = ({ data }: { data: IExperienceModel[] }) => {
     return description.replace(/\n/g, '<br/>');
   };
   return (
-    <div className="flex flex-col gap-y-6">
+    <div className="flex flex-col gap-y-3 lg:gap-y-6">
       {data.map((item: IExperienceModel, idx: number) => (
         <li
           key={idx}
-          className="relative grid grid-cols-1 gap-8 pl-10 before:absolute before:left-0 before:flex before:h-[calc(1.375rem+1px)] before:w-[calc(1.375rem+1px)] before:items-center before:justify-center before:rounded-md before:bg-gray-100 before:ring-1 before:ring-gray-200 before:content-[''] pb-8"
+          className="relative grid grid-cols-1 pl-10 before:absolute before:left-0 before:flex before:h-[calc(1.375rem+1px)] before:w-[calc(1.375rem+1px)] before:items-center before:justify-center before:rounded-md before:bg-gray-100 before:ring-1 before:ring-gray-200 before:content-[''] pb-4 lg:pb-8"
         >
           <div className="flex flex-col gap-y-2">
             <h2 className="text-base font-semibold text-white">{item.title}</h2>
