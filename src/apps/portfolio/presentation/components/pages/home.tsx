@@ -45,7 +45,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-4/6 lg:w-full flex justify-end pb-16 lg:pb-0">
+      <div className="w-4/6 md:w-1/2 lg:w-4/6 flex justify-end pb-16 lg:pb-0">
         <img src="images/avatar.png" alt="avatarImage" />
       </div>
     </div>
