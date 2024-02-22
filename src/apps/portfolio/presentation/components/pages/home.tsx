@@ -12,8 +12,8 @@ export const Home = () => {
   };
 
   return (
-    <div className="w-full h-full flex items-center justify-between px-44">
-      <div className="w-1/2 pl-32">
+    <div className="w-full lg:h-full flex flex-col-reverse lg:flex-row items-center justify-between px-4 lg:px-44 overflow-auto pt-32 lg:pt-0">
+      <div className="w-full flex flex-col md:pl-10 lg:pl-0">
         <span className="text-yellow-500 text-2xl font-semibold">Hello, Welcome</span>
 
         <div className="text-3xl font-bold mb-2 pt-4">
@@ -45,8 +45,8 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2 flex justify-end">
-        <img src="images/avatar.png" className="w-4/6" alt="avatarImage" />
+      <div className="w-4/6 lg:w-full flex justify-end pb-16 lg:pb-0">
+        <img src="images/avatar.png" alt="avatarImage" />
       </div>
     </div>
   );
