@@ -13,7 +13,7 @@ export const Navbar = () => {
           id="home"
           to={'/home'}
           className={`${
-            pathname.includes('/home')
+            pathname == '/home'
               ? 'bg-gray-400/30 shadow-xl font-bold border border-gray-200'
               : 'bg-transparent font-semibold'
           } text-black rounded-full py-2 px-6`}
@@ -24,7 +24,7 @@ export const Navbar = () => {
           id="about"
           to={'/about'}
           className={`${
-            pathname.includes('/about')
+            pathname == '/about'
               ? 'bg-gray-400/30 shadow-xl font-semibold border border-gray-200'
               : 'bg-transparent font-semibold'
           } text-black rounded-full py-2 px-6`}
@@ -35,7 +35,7 @@ export const Navbar = () => {
           id="experience"
           to={'/experience'}
           className={`${
-            pathname.includes('/experience')
+            pathname == '/experience'
               ? 'bg-gray-400/30 shadow-xl font-semibold border border-gray-200'
               : 'bg-transparent font-semibold'
           } text-black rounded-full py-2 px-6`}
@@ -46,7 +46,7 @@ export const Navbar = () => {
           id="project"
           to={'/project'}
           className={`${
-            pathname.includes('/project')
+            pathname == '/project'
               ? 'bg-gray-400/30 shadow-xl font-semibold border border-gray-200'
               : 'bg-transparent font-semibold'
           } text-black rounded-full py-2 px-6`}
