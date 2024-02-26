@@ -57,7 +57,7 @@ export const projectsMock: IExperienceModel[] = [
     label: 'Next.js, ChartJs, Tailwindcss, Figma',
     description:
       'Introducing PortalWJS, your comprehensive platform for real-time data collection on presidential candidate votes at every polling station (TPS) and reporting electoral violations. Accessible on both mobile and desktop devices, PortalWJS revolutionizes the electoral process by providing a user-friendly interface for citizens and election observers. \n With PortalWJS, users can seamlessly input and track presidential candidate votes at each TPS, ensuring accurate and transparent election results. Whether on the go or at a desktop computer, our platform empowers users to participate actively in the electoral process by contributing to the collection of critical voting data. \n Additionally, PortalWJS serves as a vital tool for reporting electoral violations. Users can easily document and report any irregularities or misconduct witnessed during the electoral process, promoting accountability and safeguarding the integrity of the election.',
-    url: 'https://portal2.wargajagasuara.com',
+    url: 'https://portal.wargajagasuara.com',
     image: ['images/projects/portal.png'],
     alt: ['photo-portal'],
   },
