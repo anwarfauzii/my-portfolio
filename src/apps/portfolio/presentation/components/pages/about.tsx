@@ -5,8 +5,10 @@ export const About = () => {
       <div className="w-full h-full flex flex-col lg:flex-row items-center pt-6 lg:pt-0">
         <img src="images/my-photo-2.png" className="w-96 px-14 md:px-4 lg:px-0" alt="" />
         <p className="pt-6 text-base font-normal lg:pr-48 lg:pl-24 text-gray-300">
-          I'm a graduate of Vocational High School, majoring in Informatics Engineering, with
-          expertise in Software Engineering. Currently, I'm working as a Frontend Developer.
+          I am a graduate of Vocational High School, specializing in Informatics Engineering, with a
+          focus on Software Engineering. Currently, I am gaining further knowledge by pursuing
+          studies at Universitas Terbuka, enrolled in the Faculty of Science and Technology.
+          Concurrently, I am also employed as a Frontend Developer,
           <br /> <br />
           Ever since I entered Vocational High School, I've been captivated by programming. However,
           I soon realized that the knowledge I gained there was limited, prompting me to explore
@@ -16,9 +18,9 @@ export const About = () => {
           technologies to explore, and I am determined to absorb as much as possible. I have a
           strong passion for learning and value feedback to continuously improve and grow.
           <br /> <br />
-          I reside in Ciamis Regency, West Java Province. And I'm always enthusiastic about
-          connecting with new people. If you'd like to get in touch, please feel free to visit my
-          social media or reach out to me via email.
+          I reside in Ciamis, West Java. And I'm always enthusiastic about connecting with new
+          people. If you'd like to get in touch, please feel free to visit my social media or reach
+          out to me via email.
           <br /> <br />
           Thank you, and I'm looking forward to connecting with you!
         </p>
